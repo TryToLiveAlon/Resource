@@ -1,0 +1,24 @@
+id,lesson,Description,step,text,photo,YouTube Video,Help,extra
+L1,Getting Started,It is simple to start making your bot via @BotFather and BB,1,"Open Telegram, search for @BotFather, tap **Start**, then send the command **/newbot**",https://telegrambots.github.io/book/1/docs/logo-bot-father.jpg,https://www.youtube.com/watch?v=MZixi8oIdaA,https://help.bots.business/getting-started,"{
+  ""reply_markup"": {
+    ""inline_keyboard"": [
+      [
+        {
+          ""text"": ""Open @BotFather"",
+          ""url"": ""https://t.me/botFather""
+        }
+      ]
+    ]
+  }
+}"
+,,,2,"When BotFather asks “Alright, a new bot. How are we going to call it?”, reply with a friendly display name, e.g. **My First BB Bot**.",https://miro.medium.com/v2/resize:fit:1400/1*ZnTrEPjwPwOYJJXydOZ40w.png,,,
+,,,3,BotFather now asks for a username ending in **bot**. Provide a unique username such as **myfirstbb_bot**.,,,,
+,,,4,BotFather responds with your **HTTP API token**—a long string of letters and numbers. **Copy it.**,,,,
+,,,5,"Open BB App -> new Bot, fill token and start bot!
+
+Done! Your bot is started",,,,
+L2,Make /start command,,1,Open your Bot and make command with name /start,,,https://help.bots.business/commands,
+,,,2,"Open command and fill in answer: ""Hello from bot""",,,,
+,,,3,"Go to bot and run /start or press ""Start"" button. You will have text from bot!
+
+Also please see this video about all command's options",,https://www.youtube.com/watch?v=2r5-Sb1Ce-4&t=52s,,
